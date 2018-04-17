@@ -43,30 +43,30 @@ description:
     released: 2017-04-15                                  # Date of last stable software release
     platforms: web                    # or Windows, Mac, Linux, etc.
 
-it-riuso:
-  ipa: BF14X            # Codice IPA della PA che ha pubblicato questo repo (repo-owner)
+# it-riuso:
+#   ipa: BF14X            # Codice IPA della PA che ha pubblicato questo repo (repo-owner)
+#
+# it-pianotriennale:      # Aderenza al piano triennale. Chiave sotto namespace "ita-", quindi solo italiana
+#   use-spid: yes         # yes, no, or "n/a" se il software non ha un login
+#   use-pagopa: yes
 
-it-pianotriennale:      # Aderenza al piano triennale. Chiave sotto namespace "ita-", quindi solo italiana
-  use-spid: yes         # yes, no, or "n/a" se il software non ha un login
-  use-pagopa: yes
-
-meta:                            # Meta information to help categorization of this software
-  - scope: it
-    pa-type: city
-    category: it-anagrafe        # Category list in National Guidelines (possibly, per-country)
-    tags:
-      - comune
-      - anagrafe
-      - cittadino
-    used-by:                     # Which other public administrations are known to use this software
-      - Comune di Firenze
-      - Comune di Roma
-
-dependencies:             # List of dependencies. The only mandatory list is the proprietary one
-  open:                 # List of open dependencies. Optional
-    - MySQL
-  proprietary:          # List of proprietary software that must be bought to be able to use this software
-    - Oracle 11.4
-    - IBM SoftLayer 4.5
-  hardware:             # List of special hardware required. Optional.
-    - NFC Reader (chipset xxx)
+# meta:                            # Meta information to help categorization of this software
+#   - scope: it
+#     pa-type: city
+#     category: it-anagrafe        # Category list in National Guidelines (possibly, per-country)
+#     tags:
+#       - comune
+#       - anagrafe
+#       - cittadino
+#     used-by:                     # Which other public administrations are known to use this software
+#       - Comune di Firenze
+#       - Comune di Roma
+#
+# dependencies:             # List of dependencies. The only mandatory list is the proprietary one
+#   open:                 # List of open dependencies. Optional
+#     - MySQL
+#   proprietary:          # List of proprietary software that must be bought to be able to use this software
+#     - Oracle 11.4
+#     - IBM SoftLayer 4.5
+#   hardware:             # List of special hardware required. Optional.
+#     - NFC Reader (chipset xxx)
