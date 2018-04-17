@@ -14,11 +14,10 @@ type PublicCode struct {
 	Version     string      `validate:"required"`
 	URL         string      `validate:"required,url"`
 	UpstreamURL StringArray `yaml:"upstream-url" validate:"dive,url"`
-
-	Legal struct {
-		MainCopyrightOwner string
+	Legal       struct {
+		MainCopyrightOwner string `yaml:"main-copyright-owner"`
 		RepoOwner          string `yaml:"repo-owner" validate:"required"`
-		AuthorsFile        string
+		AuthorsFile        string `yaml:"authors-file"`
 		License            string `validate:"required,spdx"`
 	}
 	Maintenance struct {
@@ -62,7 +61,7 @@ func main() {
 	}
 
 	// Unmarshal the yaml into Publiccode struct.
-	err = yaml.Unmarshal(data, &pc)
+	err = yaml.UnmarshalStrict(data, &pc)
 	if err != nil {
 		log.Fatalf("error: %v", err)
 	}
