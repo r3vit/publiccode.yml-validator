@@ -1,6 +1,6 @@
 # PublicCode.yml-Validator
 
-PublicCode.yml-Validator let you validate the publiccode.yml file.
+PublicCode.yml-Validator let you validate the publiccode.yml file. (⚠️ 🚨 not updated)
 
 ### Description
 
@@ -8,7 +8,7 @@ This validator uses the wonderful package [go-playground/validator](https://gith
 
 ### Status
 
-⚠️ Beware! It's under construction!
+⚠️ 🚨 Beware! It's under construction! This is unofficial validator and may not be updated with latest definitions. ⚠️ 🚨
 
 Status
 
