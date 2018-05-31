@@ -1,6 +1,6 @@
 # PublicCode.yml-Validator
 
-PublicCode.yml-Validator let you validate the publiccode.yml file. (⚠️ 🚨 not updated)
+PublicCode.yml-Validator let you validate the publiccode.yml file. (⚠️ 🚨 not updated. Don't use for now.)
 
 ### Description
 
